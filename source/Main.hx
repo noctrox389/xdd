@@ -33,8 +33,8 @@ class Main extends Sprite
 {
 	var initialState:Class<FlxState> = TitleState; // The FlxState the game starts with.
 	var framerate:Int = 60; // How many frames per second the game should run at.
-	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
-	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
+	var skipSplash:Int = true; // Whether to skip the flixel splash screen that appears in release mode.
+	var startFullscreen:Int= false; // Whether to start the game in fullscreen on desktop targets
 	public static var fpsVar:FPS;
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
